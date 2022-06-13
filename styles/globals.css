@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  --white-color: #fff;
+  --main-bg-color: #1b263b;
+  --main-btn-color: #457b9d;
 }
 
 .main-container {

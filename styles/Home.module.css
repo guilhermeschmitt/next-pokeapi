@@ -6,14 +6,14 @@
 }
 
 .title {
-  color: #333;
+  color: var(--main-bg-color);
   text-align: center;
   font-size: 3em;
   margin-right: 0.4em;
 }
 
 .title span {
-  color: #e33d33;
+  color: var(--main-btn-color);
 }
 
 .pokemon_container {

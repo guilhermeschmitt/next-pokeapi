@@ -18,10 +18,10 @@
 
 .title_container .pokemon_info .number {
   margin: 0 .5em;
-  background-color: #e33d33;
+  background-color: var(--main-btn-color);
   border-radius: 5px;
   padding: 5px;
-  color: #fff;
+  color: var(--white-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +40,7 @@
 
 .type {
   padding: 0.6em 1em;
-  color: #fff;
+  color: var(--white-color);
   background-color: #000;
   margin-right: 0.5em;
   border: 1px solid #ccc;

@@ -7,10 +7,10 @@
   margin-bottom: 2em;
   width: 23%;
   border-radius: 1em;
-  border: 2px solid #e33d33;
+  border: 2px solid var(--main-btn-color);
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
-  background-color: #333;
-  color: #fff;
+  background-color: var(--main-bg-color);
+  color: var(--white-color);
 }
 
 .card .header {
@@ -21,10 +21,10 @@
 
 .card .header .number {
   margin: 0 .5em;
-  background-color: #e33d33;
+  background-color: var(--main-btn-color);
   border-radius: 5px;
   padding: 5px;
-  color: #fff;
+  color: var(--white-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,7 @@
 .card .button {
   margin-top: 1em;
   text-decoration: none;
-  background-color: #fff;
+  background-color: var(--white-color);
   color: #222;
   padding: 0.7em 1.2em;
   border-radius: 5px;
@@ -47,6 +47,6 @@
 }
 
 .card .button:hover {
-  background-color: #e33d33;
-  color: #fff;
+  background-color: var(--main-btn-color);
+  color: var(--white-color);
 }

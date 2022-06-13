@@ -4,18 +4,20 @@
   align-items: center;
   padding: 1em 2em;
   margin-bottom: 2em;
-  background-color: #333;
-  color: #fff;
+  background-color: var(--main-bg-color);
+  color: var(--white-color);
 }
 
 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .logo h1 {
   margin-left: .5em;
+  color: var(--white-color);
 }
 
 .menu_items {
@@ -29,7 +31,7 @@
 }
 
 .menu_items a {
-  color: #fff;
+  color: var(--white-color);
   text-decoration: none;
   padding: 5px;
   transition: .4s;
@@ -37,5 +39,5 @@
 }
 
 .menu_items a:hover {
-  border-color: #fff;
+  border-color: var(--white-color);
 }

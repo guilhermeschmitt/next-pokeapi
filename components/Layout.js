@@ -11,7 +11,7 @@ export default function Layout({ children }) {
       <Head>
         <link rel='shortcut icon' href='/images/favicon.ico' />
         <title>
-          Next - PokeAPI
+          Next - PokéAPI
         </title>
       </Head>
       <Navbar />

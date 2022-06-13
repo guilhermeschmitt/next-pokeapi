@@ -70,12 +70,12 @@ export default function Pokemon({ pokemon }) {
       />
       <div className={styles.data_container}>
         <DataLabel
-          label='Altura:'
+          label='Height:'
           className={styles.data_height}
           data={`${pokemon.height * 10} cm`}
         />
         <DataLabel
-          label='Peso:'
+          label='Weight:'
           data={`${pokemon.weight / 10} kg`}
         />
       </div>

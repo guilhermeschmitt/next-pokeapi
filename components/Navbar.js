@@ -8,25 +8,22 @@ import styles from '../styles/Navbar.module.css'
 export default function Navbar() {
   return (
     <navbar className={styles.navbar}>
-      <div className={styles.logo}>
-        <Image
-          height='30'
-          width="30"
-          alt="Logo pokeball"
-          src="/images/pokeball.png"
-        />
-        <h1>
-          Next - PokeAPI
-        </h1>
+      <div>
+        <Link href="/">
+          <a className={styles.logo}>
+            <Image
+              height='30'
+              width="30"
+              alt="Logo pokeball"
+              src="/images/pokeball.png"
+            />
+            <h1>
+              Next - PokéAPI
+            </h1>
+          </a>
+        </Link>
       </div>
       <ul className={styles.menu_items}>
-        <li>
-          <Link href="/">
-            <a>
-              Home
-            </a>
-          </Link>
-        </li>
         <li>
           <Link href="/about">
             <a>

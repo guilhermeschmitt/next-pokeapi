@@ -24,7 +24,7 @@ export default function Card({ pokemon }) {
       />
       <Link href={`/pokemon/${pokemon.id}`}>
         <a className={styles.button}>
-          Saiba mais
+          Details
         </a>
       </Link>
     </div>
